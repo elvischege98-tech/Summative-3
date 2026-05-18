@@ -2,13 +2,14 @@ import { BrowserRouter,Routes,Route,Link } from "react-router-dom";
 import Home from "./components/Home";
 import AddBook from "./components/AddBook";
 import AvailableBooks from "./components/AvailableBooks";
+import './App.css';
 
 function App() {
   return (
     <>
-       <BrowserRouter>
-       <div>
-            <nav>
+       <BrowserRouter >
+       <div className="app-wrapper">
+            <nav className="nav">
               <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/add-book">Add Book</Link></li>
