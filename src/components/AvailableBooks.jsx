@@ -1,17 +1,24 @@
-function AvailableBooks(){
-    return(
-        <>
-        <h1 
-        style={{
-            textAlign: 'center',
-            marginTop: '50px',
-            color: '#3b2f1f',
-            fontSize: '2.5rem',
-            fontWeight: 'bold',
-            fontFamily: 'Georgia, serif',
-        }}>Available Books</h1>
-        </>
-    )
+import { useBooksContext } from "../context/BooksContext";
+import BookCard from "./BookCard";
+
+function AvailableBooks() {
+    const { books, loading, error } = useBooksContext();
+
+    if (loading) return <p>Loading books...</p>;
+    if (error) return <p>{error}</p>;
+
+    return (
+        <div>
+            <h1>Available Books</h1>
+
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
+                {Array.isArray(books) &&
+                    books.map((book) => (
+                        <BookCard key={book.id} book={book} />
+                    ))}
+            </div>
+        </div>
+    );
 }
 
-export default AvailableBooks;
+export default AvailableBooks;  
