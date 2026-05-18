@@ -1,0 +1,74 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "category": "Physics",
+      "price": 500.00
+    },
+    {
+      "id": 2,
+      "title": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "category": "Biology",
+      "price": 1000.00
+    },
+    {
+      "id": 3,
+      "title": "Cosmos",
+      "author": "Carl Sagan",
+      "category": "Astronomy",
+      "price": 750.00
+    },
+    {
+      "id": 4,
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "category": "Evolutionary Biology",
+      "price": 800.00   
+    },
+    {
+      "id": 5,
+      "title": "Silent Spring",
+      "author": "Rachel Carson",
+      "category": "Environmental Science",
+      "price": 600.00   
+    },
+    {
+      "id": 6,
+      "title": "The Elegant Universe",
+      "author": "Brian Greene",
+      "category": "Physics",
+      "price": 900.00
+    },
+    {
+      "id": 7,
+      "title": "Astrophysics for People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "category": "Astrophysics",
+      "price": 550.00
+    },
+    {
+      "id": 8,
+      "title": "The Gene: An Intimate History",
+      "author": "Siddhartha Mukherjee",
+      "category": "Genetics",
+      "price": 850.00
+    },
+    {
+      "id": 9,
+      "title": "Pale Blue Dot",
+      "author": "Carl Sagan",
+      "category": "Astronomy",
+      "price": 700.00
+    },
+    {
+      "id": 10,
+      "title": "Surely You're Joking, Mr. Feynman!",
+      "author": "Richard P. Feynman",
+      "category": "Physics",
+      "price": 999.99
+    }
+  ]
+}
